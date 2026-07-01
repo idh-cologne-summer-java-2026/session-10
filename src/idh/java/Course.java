@@ -81,7 +81,7 @@ public class Course implements Iterable<Student> {
 		
 		System.out.println(java2);
 		
-		
+		// TODO: Demonstrate a set of students using hashCode and equals
 	}
 
 }
