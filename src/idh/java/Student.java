@@ -1,6 +1,6 @@
 package idh.java;
 
-public class Student extends Object {
+public class Student {
 	String name;
 	int matrikelNummer;
 
@@ -21,19 +21,6 @@ public class Student extends Object {
 	@Override
 	public String toString() {
 		return name + " (" + this.matrikelNummer + ")";
-	}
-
-	@Override
-	public boolean equals(Object o) {
-	    if (!(o instanceof Student))
-		return false;
-	    Student s = (Student) o;
-	    return this.matrikelNummer == s.matrikelNummer;
-	}
-
-	@Override
-	public int hashCode() {
-	    return matrikelNummer;
 	}
 
 	public static void main(String[] args) {

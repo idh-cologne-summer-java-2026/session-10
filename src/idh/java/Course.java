@@ -80,6 +80,8 @@ public class Course implements Iterable<Student> {
 		// TODO: implement different priorities of entering into the course using Queues
 		
 		System.out.println(java2);
+		
+		
 	}
 
 }
